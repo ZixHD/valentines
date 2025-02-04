@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 .button-container{
     display: flex;
     flex-direction: row;
@@ -7,7 +9,9 @@
  
 }
 
-.my_button{
+.my_button_yes, .my_button_no{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color:white;
     border:5px solid white;
     background: #f55899;
@@ -17,6 +21,23 @@
     line-height:1em;
     letter-spacing:0.075em;
     margin-right: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
+}
 
 
+
+.my_button_yes:hover{
+ 
+    color: rgb(0, 252, 0);
+    border-color: rgb(0, 252, 0);
+    transform: scale(1.00); 
+}
+
+.my_button_no:hover{
+   
+    color: red;
+    border-color: red;
+    transform: scale(1.00); 
 }

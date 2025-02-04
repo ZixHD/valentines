@@ -5,6 +5,7 @@ export default function Home() {
   
     <div>
       <div className="positioning">
+        <img className="image-valentine" src="image/new_valentines.png"/>
         <MyButton></MyButton>
 
          
