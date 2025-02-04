@@ -1,0 +1,22 @@
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+    
+ 
+}
+
+.my_button{
+    color:white;
+    border:5px solid white;
+    background: #f55899;
+    padding:1.6rem 5rem 1.5rem 5rem;
+    border-radius:5rem;
+    font-size:1.8rem;
+    line-height:1em;
+    letter-spacing:0.075em;
+    margin-right: 2rem;
+
+
+}
