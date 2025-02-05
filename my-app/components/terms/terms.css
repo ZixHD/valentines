@@ -1,0 +1,45 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.terms-container{
+    width: 50%;
+   border: 5px white solid;
+    border-radius: 7%;
+   justify-content: center;
+   text-align: start;
+    margin-left:22%;
+    padding:2.5%;
+
+}
+.terms-text{
+    font-family: "Pattaya", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.title{
+    color:white;
+    font-family: "Pattaya", serif;
+    font-weight: 700;
+    font-size:5rem
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    scroll-behavior: smooth;
+   
+}
+
+::-webkit-scrollbar-track {
+    background: #2d3748;;
+    /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4a5568;
+
+    border-radius: 4px;
+
+}

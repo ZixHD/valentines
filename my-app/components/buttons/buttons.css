@@ -26,7 +26,11 @@
     margin-top: 1rem;
 }
 
-
+.agree-check{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
 
 .my_button_yes:hover{
  
