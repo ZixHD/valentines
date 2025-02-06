@@ -45,3 +45,8 @@
     border-color: red;
     transform: scale(1.00); 
 }
+.disabled {
+    opacity: 0.5;
+    pointer-events: none; 
+    cursor: not-allowed;
+}

@@ -39,6 +39,9 @@ export default function Terms(){
                     <p className="terms-text">
                         10. Svaka asocijacija na izgled Vašeg dečka i Vas kao maca je dozvoljena.
                     </p>
+                    <p className="terms-text">
+                        11. Ukoliko Vam dečko ponudi svoju hranu, i niste siti, morate da uzmete makar 2 zalogaja.
+                    </p>
                 </div>
             </div>
            
