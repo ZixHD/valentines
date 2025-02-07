@@ -3,6 +3,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import MyButton from "../../components/buttons/buttons";
+import Positive from "../../components/decision/positive/positive";
+import Negative from "../../components/decision/negative/negative";
 
 export default function Home() {
 
@@ -37,6 +39,7 @@ export default function Home() {
         <div className="gif-container">
             {selection === "yes" ? (
               <div>
+                <Positive></Positive>
                 <audio ref={yesSoundRef}>
                   <source src="/audio/yes-sound.mp3" type="audio/mpeg" />
                 </audio>
@@ -44,6 +47,7 @@ export default function Home() {
             
             ) : (
               <div>
+                <Negative></Negative>
                 <audio ref={noSoundRef}>
                   <source src="/audio/no-sound.mp3" type="audio/mpeg" />
                 </audio>
