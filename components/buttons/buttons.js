@@ -35,7 +35,7 @@ export default function MyButton({onSelection}){
                     onChange={() => setIsChecked(!isChecked)}
                 />
                 <label className="agree-check" htmlFor="terms">I agree to the {" "}
-                    <a href="/terms" target="_blank" className='target-link'>
+                    <a href="terms" target="_blank" className='target-link'>
                     terms
                     </a>
                 </label>
