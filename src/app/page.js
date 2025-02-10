@@ -41,7 +41,7 @@ export default function Home() {
               <div>
                 <Positive></Positive>
                 <audio ref={yesSoundRef}>
-                  <source src="/audio/yes-sound.mp3" type="audio/mpeg" />
+                  <source src="audio/yes-sound.mp3" type="audio/mpeg" />
                 </audio>
               </div>
             
@@ -49,7 +49,7 @@ export default function Home() {
               <div>
                 <Negative></Negative>
                 <audio ref={noSoundRef}>
-                  <source src="/audio/no-sound.mp3" type="audio/mpeg" />
+                  <source src="audio/no-sound.mp3" type="audio/mpeg" />
                 </audio>
               </div>
             )}
